@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "WJl71yXASHc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\FireGuard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\lightgbm\\4.6.0\\lightgbm.4.6.0.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.4\\microsoft.bcl.asyncinterfaces.9.0.4.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\microsoft.ml\\5.0.0\\microsoft.ml.5.0.0.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\microsoft.ml.cpumath\\5.0.0\\microsoft.ml.cpumath.5.0.0.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\microsoft.ml.dataview\\5.0.0\\microsoft.ml.dataview.5.0.0.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\microsoft.ml.fasttree\\5.0.0\\microsoft.ml.fasttree.5.0.0.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\microsoft.ml.lightgbm\\5.0.0\\microsoft.ml.lightgbm.5.0.0.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\microsoft.openapi\\2.3.0\\microsoft.openapi.2.3.0.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\swashbuckle.aspnetcore\\10.0.1\\swashbuckle.aspnetcore.10.0.1.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.0.1\\swashbuckle.aspnetcore.swagger.10.0.1.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.0.1\\swashbuckle.aspnetcore.swaggergen.10.0.1.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.0.1\\swashbuckle.aspnetcore.swaggerui.10.0.1.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\system.codedom\\9.0.4\\system.codedom.9.0.4.nupkg.sha512",
+    "C:\\Users\\Anshuman Dhillon\\.nuget\\packages\\system.numerics.tensors\\9.0.4\\system.numerics.tensors.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

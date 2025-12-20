@@ -1,0 +1,128 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "FireGuard",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/risk/location": {
+      "get": {
+        "tags": [
+          "Risk"
+        ],
+        "parameters": [
+          {
+            "name": "lat",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "lon",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/risk/grid": {
+      "get": {
+        "tags": [
+          "Risk"
+        ],
+        "parameters": [
+          {
+            "name": "latMin",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "default": 42
+            }
+          },
+          {
+            "name": "latMax",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "default": 70
+            }
+          },
+          {
+            "name": "lonMin",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "default": -140
+            }
+          },
+          {
+            "name": "lonMax",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "default": -53
+            }
+          },
+          {
+            "name": "gridSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/risk/active-fires": {
+      "get": {
+        "tags": [
+          "Risk"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/risk/health": {
+      "get": {
+        "tags": [
+          "Risk"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "Risk"
+    }
+  ]
+}

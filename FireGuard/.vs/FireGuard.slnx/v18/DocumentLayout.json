@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\controllers\\riskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:controllers\\riskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\models\\firedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:models\\firedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\models\\riskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:models\\riskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\ml\\fireriskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:ml\\fireriskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\services\\nasafirmsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:services\\nasafirmsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\data\\firms.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:data\\firms.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\models\\fireprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:models\\fireprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Services\\WeatherService.cs",
+              "RelativeToolTip": "Services\\WeatherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T23:11:12.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T15:14:39.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "firms.csv",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Data\\firms.csv",
+              "RelativeDocumentMoniker": "Data\\firms.csv",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Data\\firms.csv",
+              "RelativeToolTip": "Data\\firms.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-12-18T02:57:04.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:38:42.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RiskController.cs",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Controllers\\RiskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RiskController.cs",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Controllers\\RiskController.cs",
+              "RelativeToolTip": "Controllers\\RiskController.cs",
+              "ViewState": "AgIAAJcBAAAAAAAAAAAqwLgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:38:18.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NasaFirmsService.cs",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Services\\NasaFirmsService.cs",
+              "RelativeDocumentMoniker": "Services\\NasaFirmsService.cs",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Services\\NasaFirmsService.cs",
+              "RelativeToolTip": "Services\\NasaFirmsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:37:58.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FireRiskModel.cs",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\ML\\FireRiskModel.cs",
+              "RelativeDocumentMoniker": "ML\\FireRiskModel.cs",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\ML\\FireRiskModel.cs",
+              "RelativeToolTip": "ML\\FireRiskModel.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwIIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:36:42.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RiskResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Models\\RiskResponse.cs",
+              "RelativeDocumentMoniker": "Models\\RiskResponse.cs",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Models\\RiskResponse.cs",
+              "RelativeToolTip": "Models\\RiskResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:36:06.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FirePrediction.cs",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Models\\FirePrediction.cs",
+              "RelativeDocumentMoniker": "Models\\FirePrediction.cs",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Models\\FirePrediction.cs",
+              "RelativeToolTip": "Models\\FirePrediction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:34:02.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FireData.cs",
+              "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Models\\FireData.cs",
+              "RelativeDocumentMoniker": "Models\\FireData.cs",
+              "ToolTip": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Models\\FireData.cs",
+              "RelativeToolTip": "Models\\FireData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:33:24.412Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
