@@ -2,7 +2,7 @@
 
 A real-time wildfire risk assessment platform that uses machine learning to predict fire probability across Canada. Built with C#/.NET, ML.NET, and React, the system combines satellite fire detection data, live weather conditions, and advanced environmental features to provide accurate risk predictions.
 
-![FireGuard Image](assets/FireGuard.png)
+![FireGuard Demo](./demo/FireGuard.png)
 
 ## What It Does
 
