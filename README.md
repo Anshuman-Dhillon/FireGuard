@@ -2,6 +2,8 @@
 
 A real-time wildfire risk assessment platform that uses machine learning to predict fire probability across Canada. Built with C#/.NET, ML.NET, and React, the system combines satellite fire detection data, live weather conditions, and advanced environmental features to provide accurate risk predictions.
 
+![FireGuard Image](assets/FireGuard.png)
+
 ## What It Does
 
 FireGuard analyzes current conditions and historical patterns to predict wildfire risk at any location in Canada. The system integrates data from NASA's FIRMS satellite system for active fire detections and Open-Meteo for current weather conditions. Users can explore an interactive map showing risk levels across the country or click any location to get detailed analysis with probability scores and contributing factors.
