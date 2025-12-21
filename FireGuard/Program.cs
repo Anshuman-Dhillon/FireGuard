@@ -34,6 +34,11 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+if (app.Environment.IsDevelopment() || true) // Force it on for debugging
+{
+    app.UseDeveloperExceptionPage();
+}
+
 app.UseCors();
 app.UseAuthorization();
 app.MapControllers();

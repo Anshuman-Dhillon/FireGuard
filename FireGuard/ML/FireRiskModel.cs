@@ -36,9 +36,10 @@ public class FireRiskModel
         }
         else
         {
-            Console.WriteLine("Model not found, attempting to train...");
-            TrainModel();
-            SaveModel();
+            Console.WriteLine("Model not found!");
+            throw new FileNotFoundException("ML Model not found! Please upload fire_risk_model.zip");
+            //TrainModel();
+            //SaveModel();
         }
     }
 
