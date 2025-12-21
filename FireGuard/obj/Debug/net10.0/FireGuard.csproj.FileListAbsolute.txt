@@ -71,3 +71,4 @@ C:\Users\Anshuman Dhillon\Desktop\Projects\FireGuard\FireGuard\obj\Debug\net10.0
 C:\Users\Anshuman Dhillon\Desktop\Projects\FireGuard\FireGuard\obj\Debug\net10.0\FireGuard.pdb
 C:\Users\Anshuman Dhillon\Desktop\Projects\FireGuard\FireGuard\obj\Debug\net10.0\FireGuard.genruntimeconfig.cache
 C:\Users\Anshuman Dhillon\Desktop\Projects\FireGuard\FireGuard\obj\Debug\net10.0\ref\FireGuard.dll
+C:\Users\Anshuman Dhillon\Desktop\Projects\FireGuard\FireGuard\obj\Debug\net10.0\FireGuard.sourcelink.json

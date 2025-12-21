@@ -9,7 +9,12 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddHttpClient();
 
-builder.Services.AddSingleton<FireRiskModel>();
+builder.Services.AddSingleton<FireRiskModel>(sp =>
+{
+    var env = sp.GetRequiredService<IWebHostEnvironment>();
+    return new FireRiskModel(env);
+});
+
 builder.Services.AddScoped<WeatherService>();
 builder.Services.AddScoped<NasaFirmsService>();
 
@@ -18,7 +23,7 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(policy =>
         policy.WithOrigins(
             "http://localhost:5173",  // Local development
-            "https://fire-guard-olive.vercel.app/"  // production
+            "https://fire-guard-olive.vercel.app"  // production
         )
         .AllowAnyHeader()
         .AllowAnyMethod());

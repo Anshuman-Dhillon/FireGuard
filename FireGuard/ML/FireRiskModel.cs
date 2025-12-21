@@ -11,22 +11,32 @@ public class FireRiskModel
     private readonly MLContext _mlContext;
     private ITransformer _model = null!;
     private PredictionEngine<FireData, FirePrediction> _engine = null!;
-    private const string CsvPath = "Data/firms.csv";
-    private const string ModelPath = "Data/fire_risk_model.zip";
-
+    private readonly string _csvPath;
+    private readonly string _modelPath;
     // Store fire density map for location-based risk
     private Dictionary<(int, int), float> _fireHotspots = new();
 
-    public FireRiskModel()
+    public FireRiskModel(IWebHostEnvironment env)
     {
         _mlContext = new MLContext(seed: 42);
 
-        if (File.Exists(ModelPath))
+        // Get the correct paths for Azure vs Local
+        var contentRoot = env.ContentRootPath;
+        _csvPath = Path.Combine(contentRoot, "Data", "firms.csv");
+        _modelPath = Path.Combine(contentRoot, "Data", "fire_risk_model.zip");
+
+        Console.WriteLine($"Looking for model at: {_modelPath}");
+        Console.WriteLine($"Looking for CSV at: {_csvPath}");
+        Console.WriteLine($"Model exists: {File.Exists(_modelPath)}");
+        Console.WriteLine($"CSV exists: {File.Exists(_csvPath)}");
+
+        if (File.Exists(_modelPath))
         {
             LoadModel();
         }
         else
         {
+            Console.WriteLine("Model not found, attempting to train...");
             TrainModel();
             SaveModel();
         }
@@ -103,16 +113,16 @@ public class FireRiskModel
 
         try
         {
-            if (!File.Exists(CsvPath))
+            if (!File.Exists(_csvPath))
             {
-                Console.WriteLine($"CSV file not found: {CsvPath}");
+                Console.WriteLine($"CSV file not found: {_csvPath}");
                 return new List<FireData>();
             }
 
             // First pass: build fire hotspot map
             var fireLocations = new List<(float lat, float lon, DateTime date)>();
 
-            using (var reader = new StreamReader(CsvPath, Encoding.UTF8))
+            using (var reader = new StreamReader(_csvPath, Encoding.UTF8))
             {
                 string? line;
                 int lineNum = 0;
@@ -349,9 +359,9 @@ public class FireRiskModel
     {
         try
         {
-            Directory.CreateDirectory(Path.GetDirectoryName(ModelPath)!);
-            _mlContext.Model.Save(_model, null, ModelPath);
-            Console.WriteLine($"Enhanced model saved to {ModelPath}");
+            Directory.CreateDirectory(Path.GetDirectoryName(_modelPath)!);
+            _mlContext.Model.Save(_model, null, _modelPath);
+            Console.WriteLine($"Enhanced model saved to {_modelPath}");
         }
         catch (Exception ex)
         {
@@ -363,9 +373,9 @@ public class FireRiskModel
     {
         try
         {
-            _model = _mlContext.Model.Load(ModelPath, out _);
+            _model = _mlContext.Model.Load(_modelPath, out _);
             _engine = _mlContext.Model.CreatePredictionEngine<FireData, FirePrediction>(_model);
-            Console.WriteLine($"Model loaded from {ModelPath}");
+            Console.WriteLine($"Model loaded from {_modelPath}");
         }
         catch (Exception ex)
         {
