@@ -392,8 +392,7 @@ public class RiskController : ControllerBase
             // Serialize and deserialize to get proper type
             var json = JsonSerializer.Serialize(weather);
             _logger.LogDebug("Weather JSON: {Json}", json);
-
-            // Fix: Add Case Insensitive option
+            
             var options = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true

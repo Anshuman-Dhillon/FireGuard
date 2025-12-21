@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\controllers\\riskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:controllers\\riskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:services\\nasafirmsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|c:\\users\\anshuman dhillon\\desktop\\projects\\fireguard\\fireguard\\data\\firms.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4A48D913-6975-AA83-3FD1-35F1D42B6E07}|FireGuard.csproj|solutionrelative:data\\firms.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WeatherService.cs",
               "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Services\\WeatherService.cs",
               "RelativeDocumentMoniker": "Services\\WeatherService.cs",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -78,7 +78,8 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-18T15:14:39.257Z"
+              "WhenOpened": "2025-12-18T15:14:39.257Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -106,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RiskController.cs",
               "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Controllers\\RiskController.cs",
               "RelativeDocumentMoniker": "Controllers\\RiskController.cs",
@@ -119,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "NasaFirmsService.cs",
               "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Services\\NasaFirmsService.cs",
               "RelativeDocumentMoniker": "Services\\NasaFirmsService.cs",
@@ -131,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FireRiskModel.cs",
               "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\ML\\FireRiskModel.cs",
               "RelativeDocumentMoniker": "ML\\FireRiskModel.cs",
@@ -143,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RiskResponse.cs",
               "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Models\\RiskResponse.cs",
               "RelativeDocumentMoniker": "Models\\RiskResponse.cs",
@@ -167,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FireData.cs",
               "DocumentMoniker": "C:\\Users\\Anshuman Dhillon\\Desktop\\Projects\\FireGuard\\FireGuard\\Models\\FireData.cs",
               "RelativeDocumentMoniker": "Models\\FireData.cs",

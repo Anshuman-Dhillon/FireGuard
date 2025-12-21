@@ -15,7 +15,7 @@ L.Icon.Default.mergeOptions({
 // Auto-detect backend URL (works with any port)
 const API_BASE = window.location.hostname === 'localhost' 
   ? 'http://localhost:5014/api'
-  : '/api';
+  : 'https://fireguard-awckf3gff8c0ehbe.canadacentral-01.azurewebsites.net/api';
 
 const FireGuardApp = () => {
   const [gridData, setGridData] = useState([]);

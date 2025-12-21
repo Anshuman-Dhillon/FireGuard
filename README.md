@@ -6,28 +6,25 @@ A real-time wildfire risk assessment platform that uses machine learning to pred
 
 FireGuard analyzes current conditions and historical patterns to predict wildfire risk at any location in Canada. The system integrates data from NASA's FIRMS satellite system for active fire detections and Open-Meteo for current weather conditions. Users can explore an interactive map showing risk levels across the country or click any location to get detailed analysis with probability scores and contributing factors.
 
-The machine learning model considers eleven different features including temperature, wind speed, humidity, precipitation, seasonal timing, vegetation density, drought conditions, elevation, and historical fire patterns. This multi-factor approach allows the model to understand that a hot day in July carries very different risk than the same temperature in January, and that certain regions are inherently more fire-prone than others.
+The machine learning model considers eleven different features including temperature, wind speed, humidity, precipitation, seasonal timing, vegetation density, drought conditions, elevation, and historical fire patterns. This approach allows the model to understand that a hot day in July carries very different risk than the same temperature in January, and that certain regions are inherently more fire-prone than others.
 
 ## Technical Details
 
 **Backend:**
 - ASP.NET Core Web API with RESTful endpoints
 - ML.NET using LightGBM algorithm for binary classification
-- Trained on 726,000+ real fire detections from 2024 Canada wildfires
-- Achieves 88-92% accuracy with 0.92-0.95 AUC
+- Trained on 726,000+ real fire detections from NASA FIRMS 2024 Canada wildfires
+- Achieves 88% accuracy with 0.92-0.95 AUC
 - Real-time data integration from NASA FIRMS and Open-Meteo APIs
 
 **Frontend:**
 - React with Leaflet for interactive mapping
-- Color-coded risk visualization (red/orange/green heat map)
+- Color-coded risk visualization
 - Real-time weather and fire detection overlays
-- Responsive design with Tailwind CSS
 
-**Key Features:**
-- Eleven-feature ML model including NDVI (vegetation index), drought index, elevation, and historical fire density
-- Model persistence with save/load capabilities
-- Comprehensive evaluation metrics tracked during training
-- Test endpoint for validating predictions with custom parameters
+**Machine Learning**
+- ML model uses NDVI (vegetation index), drought index, elevation, and historical fire density
+- Added test endpoint for validating predictions with custom parameters
 - Grid-based predictions for mapping risk across regions
 
 ## How to Run
@@ -65,6 +62,8 @@ curl "http://localhost:5014/api/risk/test?lat=56.7267&lon=-111.3790&temperature=
 The model shows strong performance across multiple metrics. It correctly identifies about 87% of test cases, with an AUC of 0.92-0.95 indicating excellent discrimination between fire and no-fire conditions. The system maintains high precision (89%+) to minimize false alarms while achieving good recall (83%+) to catch most actual fire risks.
 
 One key insight is that the model properly accounts for seasonality. Winter predictions are appropriately low regardless of other conditions, while summer predictions in fire-prone areas with extreme weather correctly show high risk. This demonstrates that the model has learned complex interactions between features rather than relying on simple thresholds.
+
+Despite these facts, the model is not perfect and should not be relied upon for any kind of emergency use.
 
 ## Future Improvements
 
