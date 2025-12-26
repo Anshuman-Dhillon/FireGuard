@@ -16,7 +16,7 @@ The machine learning model considers eleven different features including tempera
 - ASP.NET Core Web API with RESTful endpoints
 - ML.NET using LightGBM algorithm for binary classification
 - Trained on 726,000+ real fire detections from NASA FIRMS 2024 Canada wildfires
-- Achieves 88% accuracy with 0.92-0.95 AUC
+- Achieves 83% accuracy
 - Real-time data integration from NASA FIRMS and Open-Meteo APIs
 
 **Frontend:**
@@ -61,7 +61,7 @@ curl "http://localhost:5014/api/risk/test?lat=56.7267&lon=-111.3790&temperature=
 
 ## Model Accuracy
 
-The model shows strong performance across multiple metrics. It correctly identifies about 87% of test cases, with an AUC of 0.92-0.95 indicating excellent discrimination between fire and no-fire conditions. The system maintains high precision (89%+) to minimize false alarms while achieving good recall (83%+) to catch most actual fire risks.
+The model shows strong performance across multiple metrics. It correctly identifies about 83% of test cases, with an AUC of 0.84-0.87 indicating excellent discrimination between fire and no-fire conditions. This shows it achieves good recall to catch most actual fire risks.
 
 One key insight is that the model properly accounts for seasonality. Winter predictions are appropriately low regardless of other conditions, while summer predictions in fire-prone areas with extreme weather correctly show high risk. This demonstrates that the model has learned complex interactions between features rather than relying on simple thresholds.
 
